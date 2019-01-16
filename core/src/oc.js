@@ -22,6 +22,7 @@
 import $ from "jquery";
 import _ from "underscore";
 
+import L10N from './oc-l10n';
 import msg from './oc-msg';
 import Notification from './oc-notification';
 import OCDialogs from './oc-dialogs';
@@ -61,6 +62,7 @@ if (typeof console === "undefined" || typeof console.log === "undefined") {
 
 const OC = {
 	get,
+	L10N,
 	msg,
 	Notification,
 	PasswordConfirmation,
