@@ -63,6 +63,13 @@ if (typeof console === "undefined" || typeof console.log === "undefined") {
 	}
 }
 
+$(document).on('ajaxSend',function(elm, xhr, settings) {
+	if(settings.crossDomain === false) {
+		xhr.setRequestHeader('requesttoken', window.oc_requesttoken);
+		xhr.setRequestHeader('OCS-APIREQUEST', 'true');
+	}
+});
+
 const OC = {
 	AppConfig,
 	Apps,

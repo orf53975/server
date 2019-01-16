@@ -2,7 +2,6 @@
   "public/appconfig.js",
   "public/comments.js",
   "public/whatsnew.js",
-  "oc-requesttoken.js",
   "mimetype.js",
   "mimetypelist.js",
   "oc-backbone.js",
