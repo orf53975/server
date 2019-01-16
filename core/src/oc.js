@@ -22,6 +22,7 @@
 import $ from "jquery";
 import _ from "underscore";
 
+import Apps, {registerAppsSlideToggle} from './oc-apps';
 import EventSource from './oc-eventsource';
 import L10N from './oc-l10n';
 import msg from './oc-msg';
@@ -62,6 +63,7 @@ if (typeof console === "undefined" || typeof console.log === "undefined") {
 }
 
 const OC = {
+	Apps,
 	EventSource,
 	get,
 	L10N,
@@ -1382,5 +1384,7 @@ $(document).ready(function initCore () {
 
 	OC.PasswordConfirmation.init();
 });
+
+$(document).ready(registerAppsSlideToggle());
 
 export default OC;
