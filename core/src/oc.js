@@ -22,6 +22,7 @@
 import $ from "jquery";
 import _ from "underscore";
 
+import EventSource from './oc-eventsource';
 import L10N from './oc-l10n';
 import msg from './oc-msg';
 import Notification from './oc-notification';
@@ -61,6 +62,7 @@ if (typeof console === "undefined" || typeof console.log === "undefined") {
 }
 
 const OC = {
+	EventSource,
 	get,
 	L10N,
 	msg,
