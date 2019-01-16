@@ -55,6 +55,7 @@ import escapeHTML from './util/escapeHTML'
 import './jquery.exists';
 import './jquery.filter-attr';
 import './jquery.ocdialog';
+import './jquery.octemplate';
 import './jquery.select-range';
 import './jquery.tipsy';
 import formatDate from './util/format-date';
