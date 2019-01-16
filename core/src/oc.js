@@ -28,6 +28,7 @@ import Apps, {registerAppsSlideToggle} from './oc-apps';
 import ContactsMenu from './oc-contactsmenu';
 import EventSource from './oc-eventsource';
 import L10N from './oc-l10n';
+import MimeType from './oc-mimetype';
 import msg from './oc-msg';
 import Notification from './oc-notification';
 import OCDialogs from './oc-dialogs';
@@ -80,6 +81,7 @@ const OC = {
 	EventSource,
 	get,
 	L10N,
+	MimeType,
 	msg,
 	Notification,
 	PasswordConfirmation,

@@ -52,10 +52,13 @@ import OC from './oc';
 import OCP from './ocp';
 import OCA from './oca';
 import escapeHTML from './util/escapeHTML'
+import './jquery.avatar';
+import './jquery.contactsmenu';
 import './jquery.exists';
 import './jquery.filter-attr';
 import './jquery.ocdialog';
 import './jquery.octemplate';
+import './jquery.placeholder';
 import './jquery.select-range';
 import './jquery.tipsy';
 import formatDate from './util/format-date';

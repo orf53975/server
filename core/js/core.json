@@ -1,7 +1,6 @@
 {
 	"libraries": [
 		"jquery-showpassword.js",
-		"jquery.avatar.js",
 		"jquery.contactsmenu.js",
 		"placeholder.js"
 	],
@@ -26,7 +25,6 @@
 		"multiselect.js",
 		"setupchecks.js",
 		"../search/js/search.js",
-		"mimetype.js",
 		"mimetypelist.js",
 		"files/fileinfo.js",
 		"files/client.js",

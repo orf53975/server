@@ -2,10 +2,6 @@
   "public/appconfig.js",
   "public/comments.js",
   "public/whatsnew.js",
-  "mimetype.js",
   "mimetypelist.js",
-  "select2-toggleselect.js",
-  "placeholder.js",
-  "jquery.avatar.js",
-  "jquery.contactsmenu.js"
+  "select2-toggleselect.js"
 ]
