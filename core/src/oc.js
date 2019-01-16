@@ -22,6 +22,7 @@
 import $ from "jquery";
 import _ from "underscore";
 
+import AppConfig from './oc-appconfig';
 import Apps, {registerAppsSlideToggle} from './oc-apps';
 import EventSource from './oc-eventsource';
 import L10N from './oc-l10n';
@@ -63,6 +64,7 @@ if (typeof console === "undefined" || typeof console.log === "undefined") {
 }
 
 const OC = {
+	AppConfig,
 	Apps,
 	EventSource,
 	get,
