@@ -19,11 +19,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import $ from "jquery";
-import _ from "underscore";
+import $ from 'jquery';
+import _ from 'underscore';
+import Backbone from 'backbone';
 
 import AppConfig from './oc-appconfig';
 import Apps, {registerAppsSlideToggle} from './oc-apps';
+import ContactsMenu from './oc-contactsmenu';
 import EventSource from './oc-eventsource';
 import L10N from './oc-l10n';
 import msg from './oc-msg';
@@ -73,6 +75,8 @@ $(document).on('ajaxSend',function(elm, xhr, settings) {
 const OC = {
 	AppConfig,
 	Apps,
+	Backbone,
+	ContactsMenu,
 	EventSource,
 	get,
 	L10N,

@@ -8,7 +8,6 @@
 	"modules": [
 		"jquery.ocdialog.js",
 		"oc-dialogs.js",
-		"oc-backbone.js",
 		"oc-backbone-webdav.js",
 		"share.js",
 		"sharetemplates.js",
@@ -19,7 +18,6 @@
 		"sharedialoglinkshareview.js",
 		"sharedialogresharerinfoview.js",
 		"sharedialogshareelistview.js",
-		"contactsmenu.js",
 		"contactsmenu_templates.js",
 		"public/appconfig.js",
 		"public/comments.js",
